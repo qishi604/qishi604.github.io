@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="android studio,sdk," />
 
 
 
@@ -84,15 +84,25 @@
 
 
 
-<meta name="description" content="qishi604的blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="qishi604">
-<meta property="og:url" content="http://qishi604.github.io/tags/seekbar/index.html">
+<meta name="description" content="Sources for Android API 25 Platform not found
+最近更新到android 25，直接在AndroidStudio查看源码的时候出现上面这个提示。google找到了解决方法：
+
+Preferences -&amp;gt; Appearence &amp;amp; Behavior -&amp;gt; System Settings -&amp;gt; Android SDK-&amp;gt; A">
+<meta property="og:type" content="article">
+<meta property="og:title" content="source-not-found">
+<meta property="og:url" content="http://qishi604.github.io/2016/11/02/source-not-found/index.html">
 <meta property="og:site_name" content="qishi604">
-<meta property="og:description" content="qishi604的blog">
+<meta property="og:description" content="Sources for Android API 25 Platform not found
+最近更新到android 25，直接在AndroidStudio查看源码的时候出现上面这个提示。google找到了解决方法：
+
+Preferences -&amp;gt; Appearence &amp;amp; Behavior -&amp;gt; System Settings -&amp;gt; Android SDK-&amp;gt; A">
+<meta property="og:updated_time" content="2016-11-02T02:04:11.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="qishi604">
-<meta name="twitter:description" content="qishi604的blog">
+<meta name="twitter:title" content="source-not-found">
+<meta name="twitter:description" content="Sources for Android API 25 Platform not found
+最近更新到android 25，直接在AndroidStudio查看源码的时候出现上面这个提示。google找到了解决方法：
+
+Preferences -&amp;gt; Appearence &amp;amp; Behavior -&amp;gt; System Settings -&amp;gt; Android SDK-&amp;gt; A">
 
 
 
@@ -113,9 +123,9 @@
 
 
 
-  <link rel="canonical" href="http://qishi604.github.io/tags/seekbar/"/>
+  <link rel="canonical" href="http://qishi604.github.io/2016/11/02/source-not-found/"/>
 
-  <title> 标签: seekbar | qishi604 </title>
+  <title> source-not-found | qishi604 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
@@ -136,7 +146,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -214,46 +224,138 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        seekbar
-        <small>标签</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                source-not-found
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-02T10:02:12+08:00" content="2016-11-02">
+              2016-11-02
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/11/02/source-not-found/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/02/source-not-found/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
       
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+      
+        <p>Sources for Android API 25 Platform not found</p>
+<p>最近更新到android 25，直接在AndroidStudio查看源码的时候出现上面这个提示。<br>google找到了解决方法：</p>
+<ol>
+<li><p>Preferences -&gt; Appearence &amp; Behavior -&gt; System Settings -&gt; Android SDK<br>-&gt; Android SDK Location Edit -&gt; next -&gt; next 一直到完成即可</p>
+</li>
+<li><p>修改jdk.table.xml<br><code>&lt;root type=&quot;simple&quot; url=&quot;file://D:/android/sdk/sources/android-23&quot; /&gt;</code><br>osx: ~/Library/Preferences/AndroidStudio/options/jdk.table.xml<br>windows: C:\Users{USER_NAME}.AndroidStudio2.0\config\options\jdk.table.xml</p>
+</li>
+</ol>
 
-      <h1 class="post-title">
+      
+    </div>
+
+    <div>
+      
         
-            <a class="post-title-link" href="/2016/09/25/seekbar/" itemprop="url">
-              
-                <span itemprop="name">Seekbar 背景padding问题</span>
-              
-            </a>
+
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-09-25T23:29:32+08:00"
-              content="2016-09-25" >
-          09-25
-        </time>
-      </div>
+      
+    </div>
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/android-studio/" rel="tag">#android studio</a>
+          
+            <a href="/tags/sdk/" rel="tag">#sdk</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/10/28/shell进制转换/" rel="next" title="shell进制转换">
+                <i class="fa fa-chevron-left"></i> shell进制转换
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </div>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -261,6 +363,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/11/02/source-not-found/"
+           data-title="source-not-found" data-url="http://qishi604.github.io/2016/11/02/source-not-found/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -280,8 +390,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/me.jpg"
@@ -324,6 +443,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -420,6 +550,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 

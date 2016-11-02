@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="hexo,github pages," />
+  <meta name="keywords" content="shell," />
 
 
 
@@ -84,16 +84,28 @@
 
 
 
-<meta name="description" content="from">
+<meta name="description" content="八进制转十进制12((num=8#0123))echo $num; //83
+十六进制转十进制12((num=16#ff))echo $num; //255
+二进制转十进制12((num=2#111))echo $num; // 7
+十进制转其他进制这里使用到bc命令完成。&amp;quot;obase=进制;值&amp;quot;|bc
+1echo &amp;quot;obase=16;255&amp;quot;|bc //">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo-github-pages">
-<meta property="og:url" content="http://qishi604.github.io/2016/09/22/hexo-github-pages/index.html">
+<meta property="og:title" content="shell进制转换">
+<meta property="og:url" content="http://qishi604.github.io/2016/10/28/shell进制转换/index.html">
 <meta property="og:site_name" content="qishi604">
-<meta property="og:description" content="from">
-<meta property="og:updated_time" content="2016-09-25T03:18:21.000Z">
+<meta property="og:description" content="八进制转十进制12((num=8#0123))echo $num; //83
+十六进制转十进制12((num=16#ff))echo $num; //255
+二进制转十进制12((num=2#111))echo $num; // 7
+十进制转其他进制这里使用到bc命令完成。&amp;quot;obase=进制;值&amp;quot;|bc
+1echo &amp;quot;obase=16;255&amp;quot;|bc //">
+<meta property="og:updated_time" content="2016-10-28T04:54:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="hexo-github-pages">
-<meta name="twitter:description" content="from">
+<meta name="twitter:title" content="shell进制转换">
+<meta name="twitter:description" content="八进制转十进制12((num=8#0123))echo $num; //83
+十六进制转十进制12((num=16#ff))echo $num; //255
+二进制转十进制12((num=2#111))echo $num; // 7
+十进制转其他进制这里使用到bc命令完成。&amp;quot;obase=进制;值&amp;quot;|bc
+1echo &amp;quot;obase=16;255&amp;quot;|bc //">
 
 
 
@@ -114,9 +126,9 @@
 
 
 
-  <link rel="canonical" href="http://qishi604.github.io/2016/09/22/hexo-github-pages/"/>
+  <link rel="canonical" href="http://qishi604.github.io/2016/10/28/shell进制转换/"/>
 
-  <title> hexo-github-pages | qishi604 </title>
+  <title> shell进制转换 | qishi604 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
@@ -236,7 +248,7 @@
             
             
               
-                hexo-github-pages
+                shell进制转换
               
             
           </h1>
@@ -248,8 +260,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-09-22T16:22:37+08:00" content="2016-09-22">
-              2016-09-22
+            <time itemprop="dateCreated" datetime="2016-10-28T12:14:03+08:00" content="2016-10-28">
+              2016-10-28
             </time>
           </span>
 
@@ -259,8 +271,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/09/22/hexo-github-pages/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/09/22/hexo-github-pages/" itemprop="commentsCount"></span>
+                <a href="/2016/10/28/shell进制转换/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/28/shell进制转换/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -283,7 +295,11 @@
       
 
       
-        <p><a href="http://jiji262.github.io/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">from</a></p>
+        <h2 id="八进制转十进制"><a href="#八进制转十进制" class="headerlink" title="八进制转十进制"></a>八进制转十进制</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">((num=8#0123))</div><div class="line">echo $num; //83</div></pre></td></tr></table></figure>
+<h2 id="十六进制转十进制"><a href="#十六进制转十进制" class="headerlink" title="十六进制转十进制"></a>十六进制转十进制</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">((num=16#ff))</div><div class="line">echo $num; //255</div></pre></td></tr></table></figure>
+<h2 id="二进制转十进制"><a href="#二进制转十进制" class="headerlink" title="二进制转十进制"></a>二进制转十进制</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">((num=2#111))</div><div class="line">echo $num; // 7</div></pre></td></tr></table></figure>
+<h2 id="十进制转其他进制"><a href="#十进制转其他进制" class="headerlink" title="十进制转其他进制"></a>十进制转其他进制</h2><p>这里使用到bc命令完成。<code>&quot;obase=进制;值&quot;|bc</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &quot;obase=16;255&quot;|bc // ff</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -306,9 +322,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag">#hexo</a>
-          
-            <a href="/tags/github-pages/" rel="tag">#github pages</a>
+            <a href="/tags/shell/" rel="tag">#shell</a>
           
         </div>
       
@@ -317,16 +331,16 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/09/22/blog-color/" rel="next" title="blog_color">
-                <i class="fa fa-chevron-left"></i> blog_color
+              <a href="/2016/10/19/RecyclerView返回顶部/" rel="next" title="RecyclerView返回顶部">
+                <i class="fa fa-chevron-left"></i> RecyclerView返回顶部
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/09/24/flex-box/" rel="prev" title="flex-box">
-                flex-box <i class="fa fa-chevron-right"></i>
+              <a href="/2016/11/02/source-not-found/" rel="prev" title="source-not-found">
+                source-not-found <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -353,8 +367,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/09/22/hexo-github-pages/"
-           data-title="hexo-github-pages" data-url="http://qishi604.github.io/2016/09/22/hexo-github-pages/">
+      <div class="ds-thread" data-thread-key="2016/10/28/shell进制转换/"
+           data-title="shell进制转换" data-url="http://qishi604.github.io/2016/10/28/shell进制转换/">
       </div>
     
   </div>
@@ -438,7 +452,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#八进制转十进制"><span class="nav-number">1.</span> <span class="nav-text">八进制转十进制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#十六进制转十进制"><span class="nav-number">2.</span> <span class="nav-text">十六进制转十进制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二进制转十进制"><span class="nav-number">3.</span> <span class="nav-text">二进制转十进制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#十进制转其他进制"><span class="nav-number">4.</span> <span class="nav-text">十进制转其他进制</span></a></li></ol></div>
             
           </div>
         </section>
